@@ -1,7 +1,367 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<title>Skin Disease </title>
+	<link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFBvzu3KpCW3dEBy9rxLgWsy2B80Jq-dwmPg&usqp=CAU"/>
+
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="It has 7 different classes of skin cancer which are listed below :
+1. Melanocytic nevi
+2. Melanoma
+3. Benign keratosis-like lesions
+4. Basal cell carcinoma
+5. Actinic keratoses
+6. Vascular lesions
+7. Dermatofibroma" />
+
+	<style>
+		html {
+			font-size: 1rem;
+		}
+
+		@media (min-width: 576px) {
+			html {
+				font-size: 1.25rem;
+			}
+		}
+
+		@media (min-width: 768px) {
+			html {
+				font-size: 1.5rem;
+			}
+		}
+
+		@media (min-width: 992px) {
+			html {
+				font-size: 1.75rem;
+			}
+		}
+
+		@media (min-width: 1200px) {
+			html {
+				font-size: 2rem;
+			}
+
+			html {
+				font-size: 1rem;
+			}
+
+			h1 {
+				font-size: 1.2rem;
+			}
+
+			h2 {
+				font-size: 1.1rem;
+			}
+
+			@media (min-width: 768px) {
+				html {
+					font-size: 1.1rem;
+				}
+
+				h1 {
+					font-size: 1.3rem;
+				}
+
+				h2 {
+					font-size: 1.2rem;
+				}
+			}
+
+			@media (min-width: 991px) {
+				html {
+					font-size: 1.2rem;
+				}
+
+				h1 {
+					font-size: 1.5rem;
+				}
+
+				h2 {
+					font-size: 1.4rem;
+				}
+			}
+
+			@media (min-width: 1200px) {
+				html {
+					font-size: 1.2rem;
+				}
+
+				h1 {
+					font-size: 1.7rem;
+				}
+
+				h2 {
+					font-size: 1.6rem;
+				}
+			}
+
+		}
+	</style>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	</body>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- bootstrap css -->
+	<link href="style.css" rel='stylesheet' type='text/css' />
+	<!-- custom css -->
+	<link href="font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+	<!-- //css files -->
+	<!-- <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png?') }}"> -->
+
+
+	<script type="text/JavaScript" src="cities.js"></script>
+
+
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Thasadith:400,400i,700,700i&amp;subset=latin-ext,thai,vietnamese"
+		rel="stylesheet">
+	<!-- //google fonts -->
+
+	<style>
+		header {
+			background-color: rgba(30, 30, 30, 1);
+			margin-top: 0rem;
+			display: block;
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="background-color: #1C00ff00;">
+		<div class="container">
+			<a class="navbar-brand" href="#home">
+				<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fskin-burn&psig=AOvVaw2h1_XrQ-dmbn9z9wv01C72&ust=1707532887883000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJilxuqdnYQDFQAAAAAdAAAAABAE" style="width: 90px; height: 55px" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Melanocytic nevi.html">Crop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Melanoma.html">Yield</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Benign keratosis-like lesions.html">Fertilizer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Basal cell carcinoma.html">Disease</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Actinic keratoses">Disease</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Vascular lesions.html">Disease</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Dermatofibroma.html">Disease</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- footer -->
+
+	<!-- //footer -->
+
+	<!-- move top icon -->
+	<a href="#home" class="move-top text-center"></a>
+	<!-- //move top icon -->
+        <!--{% extends 'layout.html' %}
+        {% block body %}-->
+			<!-- banner -->
+			<section  style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lshtm.ac.uk%2Fresearch%2Fcentres-projects-groups%2Fskindiseases&psig=AOvVaw2h1_XrQ-dmbn9z9wv01C72&ust=1707532887883000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJilxuqdnYQDFQAAAAAdAAAAABAJ'); 
+			background-position: center;" 
+			class="banner_w3lspvt" id="home">
+				<div class="csslider infinity" id="slider1">
+				
+							<div class="banner-top">
+								<div class="overlay">
+									<div class="container">
+										<div class="w3layouts-banner-info text-center">
+											<h3 class="text-wh">skin disease</h3>
+											<h4 class="text-wh mx-auto my-4"><b>Get informed about your Skin Prediction.</b></h4>
+											<br>
+											<h4 class="text-wh mx-auto my-4"><strong> Here are some questions we'll answer</strong></h4>
+											<p style="text-align: justify;" class="text-li mx-auto mt-2">
+												1. What questions do you ask to know more about skin diseases?<br>
+												2. What is the methodology of skin disease detection? <br>
+												3. How do you identify a skin disease? <br>
+												4. What are the 7 skin diseases?<br>
+												</p>
+										</div>
+									</div>
+								</div>
+							</div>
+				</div>
+			</section>
+			<!-- //banner -->
+
+			<!-- core values -->
+			<section class="core-value py-5">
+				<div class="container py-md-4">
+					<h3 class="heading mb-sm-5 mb-4 text-center"> About Us</h3>
+					<div class="row core-grids">
+						<div class="col-lg-6 core-left">
+							<img src="https://zimiorganics.com/blog/images/1.jpg" class="img-fluid" alt="" />
+						</div>
+						<div class="col-lg-6 core-right">
+							<h3 class="mt-4">skin disease is a useful technology because when we predicted the disease we can reduce or decrease the diseases, Improving Lives
+								.</h3>
+							<p class="mt-3">We use state-of-the-art machine learning and deep learning technologies to help you
+								guide through
+								the entire skin disease prediction process. Make informed to understand the demographics of your area,
+								understand the
+								factors that affect your skin and keep them healthy for a super awesome successful skin.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- //core values -->
+
+			<!-- Products & Services -->
+			<section class="blog py-5">
+				<div class="container py-md-5">
+					<h3 class="heading mb-sm-5 mb-4 text-center"> Our Services</h3>
+					<div class="row blog-grids">
+						<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
+							<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fskinsight.com%2Fskin-conditions%2Fcongenital-melanocytic-nevus%2F&psig=AOvVaw0wYVPNnsy-cma8ITfxphoR&ust=1707533889866000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCODpmcehnYQDFQAAAAAdAAAAABAE"class="img-fluid" alt="" />
+							<a href="Melanocytic nevi">
+								<div class="blog-info">
+
+									<h4>Skin</h4>
+									<p class="mt-2"> which is best suited for skin disease
+										for the respective conditions</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 blog-left-left mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+							<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mayoclinic.org%2Fdiseases-conditions%2Fmelanoma%2Fsymptoms-causes%2Fsyc-20374884&psig=AOvVaw3qD7aaqI_FtO7QACrHhtBv&ust=1707533996476000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNDfkPqhnYQDFQAAAAAdAAAAABAE" class="img-fluid" alt="" />
+							<a href="Melanoma.html">
+								
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+							<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.verywellhealth.com%2Fseborrheic-keratosis-1068732&psig=AOvVaw0nGOB_fgbWfA1Cks4p6ctI&ust=1707534061942000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJC_ppminYQDFQAAAAAdAAAAABAE" class="img-fluid" alt="" />
+							<a href="Benign keratosis-like lesions.html">
+								<div class="blog-info">
+									<h4>Benign keratosis-like lesions</h4>
+									<p class="mt-2">Benign keratosis-like lesions it is a type of skin disease and dangerous </p>
+								</div>
+						<div class="col-lg-4 col-md-6 blog-left-left mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+							<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBasal-cell_carcinoma&psig=AOvVaw1g82QmMrSjLChmSwa_nKyg&ust=1707534315235000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKDqlJKjnYQDFQAAAAAdAAAAABAE" class="img-fluid" alt="" />
+							<a href="Basal cell carcinoma.html">
+								
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 blog-left-left mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+							<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dermspecialistsil.com%2Factinic-keratosis%2F&psig=AOvVaw1t_XSgjB3FMxZlVgUH-B-S&ust=1707534433359000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIiItsqjnYQDFQAAAAAdAAAAABAJ" class="img-fluid" alt="" />
+							<a href="Actinic keratoses.html">
+								
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 blog-left-left mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+							<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flazaderm.com%2Fconditions%2Fvascular-lesions%2F&psig=AOvVaw0qhV3lkYVUsYrbx0tHVQt8&ust=1707534492216000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj0u-ajnYQDFQAAAAAdAAAAABAQ" class="img-fluid" alt="" />
+							<a href="Vascular lesions.html">
+								
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 blog-left-left mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+							<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.heckerderm.com%2Farticles%2Fgeneral%2F917654-dermatofibroma%2F&psig=AOvVaw1WWSkxKlmAGkyC9m1cZuE9&ust=1707534542730000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKiLyv6jnYQDFQAAAAAdAAAAABAE" class="img-fluid" alt="" />
+							<a href="Dermatofibroma.html">
+								
+							</a>
+						</div>
+							</a>
+						</div>
+						
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- //Products & Services -->
+
+
+<!-- Creating custom grid and hover effect -->
+<!-- <section>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/s2.jpg" alt="">
+        <div class="overlay">
+           <h2>Hover effect 1</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+</div> -->
+				<footer class="text-center py-5">
+					<div class="container py-md-3">
+						<!-- logo -->
+						<h2 class="logo2 text-center">
+							<a href="#home">
+								Skin Disease Prediction
+							</a>
+						</h2>
+						<!-- //logo -->
+						<!-- address -->
+						<div class="contact-left-footer mt-4">
+
+
+
+
+
+							<!-- <a href="community.html">Community</a> -->
+							</p>
+						</div>
+						<div class="w3l-copy text-center">
+							<p class="text-da">An Environmental Intelligence <br> </p>
+						
+				</footer>
+
     <meta charset="UTF-8">
     <title>Imgur-Upload</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +378,17 @@
     <div class="dropzone">
         <div class="info"></div>
     </div>
-    <div>
-	<p>Made with by Bhavani,Gayatri,Swathi,Sravani</p>
-    </div>
-
+   
     
     <div style="text-align:center;" id="finalAns" ></div>
     
 
     <script type="text/javascript" src="./js/imgur.js"></script>
     <script type="text/javascript" src="./js/upload.js"></script>
-    
+    </div>
+	<p class="homelogo">
+	<p>Made with by Bhavani,Gayatri,Swathi,Sravani</p>
+    </div>
     
 </body>
 

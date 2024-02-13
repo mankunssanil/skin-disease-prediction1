@@ -259,42 +259,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         <div class="col-lg-4 col-md-6 blog-center mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
             <img src="https://magazine.medlineplus.gov/images/uploads/main_images/_main_article_list/is-it-vitiligo.jpg" class="img-fluid" alt="" />
-            <a href="SKIN. DISEASE DETECTION.html">
-		    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skin Disease Diagonisis</title>
-</head>
-<body>
-    <h1>Skin Disease Diagonisis</h1>
-    <form id="uploadForm" enctype="multipart/form-data">
-        <input type="file" id="fileInput" accept="image/*">
-        <button type="button" onclick="predict()">Predict</button>
-    </form>
-    <div id="predictionResult"></div>
-
-    <script>
-        function predict() {
-            var fileInput = document.getElementById('fileInput');
-            var file = fileInput.files[0];
-            var formData = new FormData();
-            formData.append('file', file);
-
-            var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'predict.php', true);
-            xhr.onload = function() {
-                if (xhr.status === 200) {
-                    var response = JSON.parse(xhr.responseText);
-                    var predictionResult = document.getElementById('predictionResult');
-                    predictionResult.innerHTML = 'Predicted Disease: ' + response.disease;
-                } else {
-                    alert('Error predicting the disease.');
-                }
-            };
-            xhr.send(formData);
-        }
-    </script>
-</body>
+            <a href="upload.html"> <!-- Link to the prediction page -->
                 <div class="blog-info">
                     <h4>SKIN DISEASE DETECTION</h4>
                     <p class="mt-2">Anticipate disease type, symptoms and preventive measures for minimizing its impact.</p>
@@ -304,6 +269,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </section>
 <!-- //Products & Services -->
+
 
 <!-- Creating custom grid and hover effect -->
 <!-- <section>

@@ -1494,6 +1494,28 @@ a.move-top {
 		letter-spacing: 1px;
 	}
 }
+.products-services {
+  background-color: #f5f5f5; /* Or your chosen background color */
+}
+
+.service-card {
+  /* Customize these properties as needed */
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.service-info {
+  /* Customize these properties as needed */
+  text-align: center;
+}
+
+.btn {
+  /* Customize these properties as needed */
+  background-color: #1976d2;
+  padding: 10px 20px;
+}
+
 @media(max-width:414px) {
 	.csslider>.arrows label {
 		padding: 8px !important;
